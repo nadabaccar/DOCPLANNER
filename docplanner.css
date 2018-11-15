@@ -1,0 +1,471 @@
+.docplanner-top-navbar{
+    display:flex;
+    justify-content:space-around;
+}
+
+.docplanner-image-title{
+    width : 20%;
+    height: 20%;
+margin-top:0.5%;
+}
+
+.career-about-us{
+    display:flex;
+    width:20%;
+    margin-top:1%;
+}
+
+.about-us>a{
+    color:#00b39b;
+    font-family:'Roboto';
+    text-decoration:none;
+}
+
+.about-us{
+    padding-right:10%;
+}
+.career>a{
+    color:grey;
+    font-family:'Roboto';
+    text-decoration:none;
+}
+
+.logo-health{
+    background: url("https://media.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0?e=2159024400&v=beta&t=EceoeatN3ZdtLKlQdk-5b9mznHFILuVm2EExIss1FTA");
+    height: 40px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:5%;
+}
+
+.page-title-paragraph{
+    color:#00b39b;
+    font-family:'Roboto';
+    font-weight:bold;
+}
+
+.presentation-paragraphs{ 
+    display:flex;
+    justify-content:center;
+    color:#747474;
+    line-height: 160%;
+    font-family:'Roboto';
+    margin-bottom:3%;
+}
+
+.patients-paragraph{
+    width:450px;
+    padding:1%;  
+}
+
+.doctors-paragraph{
+    width:500px;
+    padding:1%;
+  
+}
+
+.boxes{
+    display:flex;
+    font-family:'Roboto';
+    margin-left:13%;
+    margin-right:20%;
+    width:70%;
+   
+}
+.for-patients{
+    border-radius:20px;
+    background-color:#00ccb1;
+    padding-top:2%:;
+    padding-left:3%;
+    padding-right:3%;
+    width:1400px;
+    height:400px;
+    margin-right:1%;
+    overflow:hidden;
+}
+.photo-patients{
+    background: url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+    width:400px;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:35%;
+}
+
+.text-patients>p{
+    color:white;
+}
+
+.text-patients>h2{
+    color:white;
+    font-weight: normal;
+}
+.for-doctors{
+    border-radius:20px;
+    background-color:#3d83df;
+    padding-top:2%:;
+    padding-left:3%;
+    padding-right:3%;
+    width:1400px;
+    height:400px;
+    margin-left:1%;
+    overflow:hidden;
+}
+
+.photo-doctors{
+    background: url("https://www.docplanner.com/img/screen-saas@2x.png");
+    width:400px;
+    height:250px;
+    margin-top:12%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30%;
+}
+
+.text-doctors>p{
+    color:white;
+}
+
+.text-doctors>h2{
+    color:white;
+    font-weight: normal;
+}
+
+.country{
+padding:1.5%;
+font-weight:bold;
+width:auto;
+}
+
+.country-cover{
+    padding:1.5%;
+    width:auto;
+}
+
+.country-cover:hover{
+    background:rgba(251, 251, 252, 0.5)
+}
+
+.third-bar-page{
+    margin-top:5%;
+    margin-right:30%;
+    margin-bottom:5%;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items:flex-start;
+   
+}
+.brands{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width:45%;
+    color:#00ccb1;
+    margin-right:13%;
+}
+
+.brand>a{
+    fill:#d0d0d0;
+} 
+
+.brand>a:hover{
+fill: hsla(172, 100%, 40%, 1);
+}
+.local-culture-title>h2{
+    margin: 1% 1%;
+    color: #00ccb1;
+    font-family:'Roboto';
+    font-weight:normal;
+}
+
+.local-culture-title{
+    display:flex;
+    width:30%;
+    justify-content:center;
+}
+
+.fourth-bar-page{
+    display:flex;
+}
+
+.box{
+    color:#00b39b;
+    font-family:'Roboto';
+}
+
+.first-logo{
+    background:url("https://www.docplanner.com/img/flag.png");
+    width:35px;
+    height:35px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.second-logo{
+    background:url("https://www.docplanner.com/img/patients.png");
+    width:45px;
+    height:35px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.third-logo{
+    background:url("https://www.docplanner.com/img/visits.png");
+    width:35px;
+    height:35px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.fourth-logo{
+    background:url("https://www.docplanner.com/img/doctors.png");
+    width:35px;
+    height:35px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.fourth-bar-page{
+    background-color:#d6f6f6;
+    width:100%;
+}
+
+.all-boxes{
+    display:flex;
+    width:50%;
+    margin-left:-10%;
+}
+
+.box{
+    background:white;
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:4px;
+    margin:1%;
+    padding:5%;
+    height:200px;
+    width:200px;
+    text-align:center;
+    margin-bottom:7%;
+}
+
+.left-boxes{
+    width:40%;
+    height:100%;
+    margin-top:15%;
+    margin-right:2%;
+}
+
+.right-boxes{
+    width:40%;
+    height:100%;
+    margin-top:5%;
+}
+.image-star{
+    background:url("https://www.docplanner.com/img/logo.png");
+    align-items:center;
+    width:500px;
+    height:350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.title-image-fourth-bar{
+    display:flex;
+    flex-direction:column;
+    padding-top:5%;
+    padding-right:10%;
+    margin-right:10%;
+}
+
+.healthcare-platform-title{
+    padding-left:30%;
+    padding-right:1%;
+    padding-bottom:5%;
+    line-height:1.75;
+
+}
+
+.title{
+color:#00b39b;
+font-family:'Roboto';
+font-size:80%;
+}
+
+.text{
+    color:#747474;
+    font-family:'Roboto';
+    font-size:80%;
+}
+
+.fifth-part{
+    display:flex;
+    flex-direction:column;
+    font-family:'Roboto';
+    align-items:center;
+    margin:2% 30% 2%;
+    text-align:center;
+}
+
+.fifth-part>h1{
+    color:#00b39b;
+    font-weight:normal;
+}
+
+.fifth-part>p{
+    color: #747474;
+}
+
+.towns-bar{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:center;
+}
+
+.towns-top-bar{
+    display:flex;
+}
+.towns-bottom-bar{
+    display:flex;
+}
+.town-image-warsaw{
+    background:url(" https://www.docplanner.com/images/warsaw.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.town-image-barcelona{
+    background:url("https://www.docplanner.com/images/barcelona.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.town-image-istanbul{
+    background:url("https://www.docplanner.com/images/istanbul.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.town-image-rome{
+    background: url("https://www.docplanner.com/images/rome.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.town-image-mexico{
+    background: url("https://www.docplanner.com/images/mexico-city.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.town-image-curitiba{
+    background: url("https://www.docplanner.com/images/curitiba.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.image-description{
+     display:flex;
+     justify-content:space-around;
+     justify-content:baseline;
+     padding-left:10%;
+     width:300px;  
+     margin-right:0%;
+     margin-left:0%;
+     font-family:"Roboto";
+}
+ .town>a{
+    text-decoration:none;
+    color:#747474;
+ }
+
+.openings>p{
+background-color:#3d83df;
+font-family:"Roboto";
+font-size:70%;
+border-radius:2%;
+padding:10%;
+margin-top:10%;
+width:100%;
+text-decoration:none;
+color:white;
+text-align:center;
+}
+
+.bottom-info-bar{
+    font-family:"Roboto";
+    color:#ababab;
+    display:flex;
+    justify-content:center;
+    margin-right:15%;
+    margin-left:15%;
+}
+.countries{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.leaders{
+    display:flex;
+    text-align:center;
+    font-size:80%;
+    width:70%;
+}
+
+.countries{
+margin-top:2%;
+}
+.countries>p{
+    margin-top:0%;
+}
+
+.countries>a{
+    text-decoration:none;
+    color:#3d83df;
+}
+
+.countries>a:hover{
+    text-decoration:underline;
+}
+.bottom-info-bar{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.cookies{
+    font-size:80%;
+    text-align:center;
+}
